@@ -351,12 +351,18 @@ nav ul li:hover {
 }
 /*Projects*/
 #work {
-    height: 525px;
+    min-height: fit-content;
 }
 /* X-Lyn Jewels Feature */
+#more {
+    display: none;
+}
+#more-2 {
+    display: none;
+}
 .xlyn-all {
     display: flex;
-
+    min-height: 500px;
 }
 .phone {
     position: absolute;
@@ -396,7 +402,6 @@ nav ul li:hover {
 .xlyn-words {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 50%;
 
 }
@@ -416,7 +421,6 @@ nav ul li:hover {
     border: 2px solid #624A30;
     border-radius: 30px;
     font-weight: bold;
-    font-size: 1rem;
     cursor: pointer;
     width: fit-content;
 }
