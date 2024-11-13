@@ -9,7 +9,7 @@ function readMore() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read Less";
+        btnText.innerHTML = "Read less";
         moreText.style.display = "inline"; 
     }
 }
@@ -25,10 +25,45 @@ function readMore2() {
         moreText2.style.display = "none";
     } else {
         dots2.style.display = "none";
-        btnText2.innerHTML = "Read Less";
+        btnText2.innerHTML = "Read less";
         moreText2.style.display = "inline"; 
     }
 }
+
+function readMore3() {
+    let dots3 = document.getElementById("dots-3");
+    let moreText3 = document.getElementById("more-3");
+    let btnText3 = document.getElementById("myBtn-3");
+
+    if (dots3.style.display === "none") {
+        dots3.style.display = "inline";
+        btnText3.innerHTML = "Read more";
+        moreText3.style.display = "none";
+    } else {
+        dots3.style.display = "none";
+        btnText3.innerHTML = "Read less";
+        moreText3.style.display = "inline"; 
+    }
+}
+
+function readMore4() {
+    let dots4 = document.getElementById("dots-4");
+    let moreText4 = document.getElementById("more-4");
+    let btnText4 = document.getElementById("myBtn-4");
+
+    if (dots4.style.display === "none") {
+        dots4.style.display = "inline";
+        btnText4.innerHTML = "Read more";
+        moreText4.style.display = "none";
+    } else {
+        dots4.style.display = "none";
+        btnText4.innerHTML = "Read less";
+        moreText4.style.display = "inline"; 
+    }
+}
+
+
+
 
 // Mobile NavBar
 

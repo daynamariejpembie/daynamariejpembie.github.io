@@ -582,26 +582,28 @@ video {
   flex-direction: row;
 }
 
-.gap-14 {
-  gap: 3.5rem;
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .gap-5 {
   gap: 1.25rem;
 }
 
+.self-center {
+  align-self: center;
+}
+
 .p-2 {
   padding: 0.5rem;
-}
-
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
 .px-10 {
@@ -609,14 +611,19 @@ video {
   padding-right: 2.5rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
 
-.\!text-3xl {
-  font-size: 1.875rem !important;
-  line-height: 2.25rem !important;
+.\!text-2xl {
+  font-size: 1.5rem !important;
+  line-height: 2rem !important;
 }
 
 .\!text-4xl {
@@ -725,8 +732,6 @@ nav ul {
 nav ul li {
   padding: 0.75rem 1.75rem;
   color: #624A30;
-  border: 2px solid #624A30;
-  border-radius: 30px;
   font-weight: bold;
   font-size: 1.25rem;
   height: -moz-fit-content;
@@ -737,9 +742,6 @@ nav ul li {
 .contact-a {
   padding: 0.75rem 1.75rem;
   color: #624A30;
-  background-color: #f4ede4;
-  border: 2px solid #624A30;
-  border-radius: 30px;
   font-weight: bold;
   font-size: 1.25rem;
   height: -moz-fit-content;
@@ -1128,6 +1130,10 @@ nav ul li:hover {
   width: fit-content;
 }
 
+.xlyn-words a:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 @keyframes xlyn-loop {
   0% {
     transform: translateY(0%);
@@ -1185,6 +1191,33 @@ footer {
 .footer img {
   width: 3rem;
   cursor: pointer;
+}
+
+/* Contributions*/
+
+#more-3 {
+  display: none;
+}
+
+#more-4 {
+  display: none;
+}
+
+.contributions a {
+  text-decoration: none;
+  padding: 0.50rem 1.75rem;
+  color: #624a30;
+  background-color: #f4ede4;
+  border: 2px solid #624A30;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.contributions a:hover {
+  box-shadow: 0 2px 10px 0 rgba(98,48,74,0.3);
 }
 
 .hover\:drop-shadow-lg:hover {
