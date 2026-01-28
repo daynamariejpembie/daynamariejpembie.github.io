@@ -758,7 +758,7 @@ nav ul li:hover {
 }
 
 .logo {
-  width: 8rem;
+  width: 12rem;
 }
 
 .projects-a {
@@ -1050,7 +1050,7 @@ nav ul li:hover {
 
 /* X-Lyn Jewels Feature */
 
-#more {
+#more-1 {
   display: none;
 }
 
@@ -1058,6 +1058,9 @@ nav ul li:hover {
   display: none;
 }
 
+#more-5 {
+  display: none;
+}
 .xlyn-all {
   display: flex;
   min-height: 500px;

@@ -349,10 +349,13 @@ nav ul li:hover {
     min-height: fit-content;
 }
 /* X-Lyn Jewels Feature */
-#more {
+#more-1 {
     display: none;
 }
 #more-2 {
+    display: none;
+}
+#more-5 {
     display: none;
 }
 .xlyn-all {
