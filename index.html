@@ -31,8 +31,8 @@
                             <img src="/images/down-arrow.svg" />
                             <div class="dropdown-content">
                                 <a class="xlyn-a" href="https://splendid-kheer-8d8412.netlify.app/" target="_blank">X-Lyn Jewels</a>
-                                <a class="todo-a" href="https://reactjsproject-todolist.netlify.app/" target="_blank">To-Do List</a>
                                 <a class="" href="https://little-lamb-logs.vercel.app/" target="_blank">Pregnancy Tracker</a>
+                                <a class="todo-a" href="https://reactjsproject-todolist.netlify.app/" target="_blank">To-Do List</a>
                             </div>
                         </li>
 
@@ -211,10 +211,11 @@
                 <div class="fade"></div>
         </div>
         <br>
-            <div class="xlyn-all flex py-5">
-            <div class="xlyn-project flex flex-row h-full">
-                <img class="phone" src="/images/phone.png"/>
-                <div class="xlyn-feature">
+          <div class="work-projects"> <!--WP-->
+            <div class="xlyn-all flex py-5"> <!--XLYN-->
+              <div class="xlyn-project flex flex-row h-full relative w-5/6"> <!--phone-->
+                <img class="phone md:left-6 lg:left-4" src="/images/phone.png"/>
+                <div class="xlyn-feature sm:left-36 lg:max-w-52">
                     <div class="xlyn-scroll">
                       <img class="xlyn-item" src="/images/projects/xlyn-img-p-1.PNG"/>
                       <img class="xlyn-item" src="/images/projects/xlyn-img-p-2.PNG" />
@@ -226,8 +227,8 @@
                         <img class="xlyn-item" src="/images/projects/xlyn-img-p-3.PNG" />
                       </div>
                 </div>
-            </div>
-            <div class="xlyn-words w-full gap-5 justify-center">
+                </div> <!--phone-->
+              <div class="xlyn-words w-full gap-5 justify-center"> <!--Xlyn words-->
                 <h2 class="font-semibold text-4xl">X-Lyn Jewels</h2>
                 <p class="text-3xl">
                     This website is developed using JavaScript, React,
@@ -246,11 +247,30 @@
                   <a href="https://splendid-kheer-8d8412.netlify.app/" target="_blank" class="text-2xl">Live Site</a>
                   <a href="https://github.com/daynamariejpembie/daynamariejpembie" target="_blank" class="text-2xl">Code Base</a> 
                 </div> 
-            </div> 
-        </div>
-        <div class="flex gap-10 w-full px-10 py-5">
+              </div> <!--Xlyn words-->
+          </div> <!--XLYN-->
+         
+        <div class="flex gap-10 w-1/2 px-10 py-5"> <!--Pregnancy Tracker-->
+            <img class="w-96" src="images/projects/tablet.png" />
+            <div class="xlyn-words w-full gap-5 justify-center"> <!--pt words-->
+              <h2 class="font-semibold text-4xl">Little Lamb Logs</h2>
+              <p class="text-3xl">
+                This a faith-based pregnancy tracking website, built with HTML, Tailwind CSS, and JavaScript.<span id="dots">..</span>
+                <span id="more">
+                    It provides a simple and intuitive way to track pregnancy and postpartum with real-time 
+                updates and a clean interface. Though the app is a work in progress, and there is no curent functionality as I dive into the frontend first.
+                </span>
+              </p>
+              <button onclick="readMore()" id="myBtn" class="text-2xl underline hover:drop-shadow-lg">Read more</button>
+              <div>
+                <a href="https://little-lamb-logs.vercel.app/" target="_blank" class="text-2xl">Live Site</a>
+                <a href="https://github.com/daynamariejpembie/Little-Lamb-Logs" target="_blank" class="text-2xl">Code Base</a> 
+              </div> 
+            </div> <!--pt words-->
+        </div> <!--PT-->
+        <div class="flex gap-10 w-1/2 px-10 py-5"> <!--To-Do List-->
             <img class="w-96 h-60" src="images/projects/laptop-todo.png" />
-            <div class="xlyn-words w-full gap-5 justify-center">
+            <div class="xlyn-words w-full gap-5 justify-center"> <!--Todo words-->
               <h2 class="font-semibold text-4xl">To-do List Website</h2>
               <p class="text-3xl">
                 This To-Do List Website, built with React and JavaScript, provides a simple
@@ -273,7 +293,9 @@
               <a href="https://reactjsproject-todolist.netlify.app/" target="_blank" class="text-2xl">Live Site</a>
               <a href="https://github.com/daynamariejpembie/reactjs-todolist" target="_blank" class="text-2xl">Code Base</a> 
             </div> 
-        </div>
+          </div> <!--ToDo Words-->
+        </div> <!--To Do List-->
+      </div> <!--WP-->
         </section>
         <section id="open-source" class="contributions">
             <div id="banner">
