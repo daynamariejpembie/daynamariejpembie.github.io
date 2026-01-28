@@ -62,6 +62,22 @@ function readMore4() {
     }
 }
 
+function readMore5() {
+    let dots5 = document.getElementById("dots-5");
+    let moreText5 = document.getElementById("more-5");
+    let btnText5 = document.getElementById("myBtn-5");
+
+    if (dots5.style.display === "none") {
+        dots5.style.display = "inline";
+        btnText5.innerHTML = "Read more";
+        moreText5.style.display = "none";
+    } else {
+        dots5.style.display = "none";
+        btnText5.innerHTML = "Read less";
+        moreText5.style.display = "inline"; 
+    }
+}
+
 
 
 
